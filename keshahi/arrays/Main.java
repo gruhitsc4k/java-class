@@ -1,13 +1,21 @@
+import java.util.Random;
+
 public class Main{
+    // Defining a function
+    public static void greet(){
+        System.out.println("Hello!");
+    }
+
     public static void main(String args[]){
-        // datatype varname[] = {};
-        int marks[] = {89, 90, 75, 66, 50, 99, 80};
-
-        // .length :- The number of elements in an array.
-        System.out.println("Marks array has " + marks.length + " element(s).");
-
-        // accessing element using index.
-        System.out.println("Marks of 3rd student index is: " + marks[2]);
+        // Random r = new Random();
         
+        // Calling a function
+        greet();
     }
 }
+
+/*
+Create a program to have a 2 dimensional array to 2 student's marks for 3 subjects. 
+Then using the marks calculat the total and percentage for each student and print their report
+card. 
+*/
